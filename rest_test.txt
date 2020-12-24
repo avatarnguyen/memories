@@ -1,0 +1,10 @@
+POST http://localhost:5000/posts HTTP/1.1
+content-type: application/json
+
+{
+  creator: 'Anh', 
+  title: 'Test', 
+  message: 'yoo message', 
+  tags: 'productivity', 
+  selectedFile: ''
+}
